@@ -1,0 +1,5 @@
+
+* * * * * (sleep 4; /etc/zabbix/scripts/elasticsearch_multinstance.py http://es-node11.domain.ru:9200 domain.ru zbx-mon.domain.ru)
+* * * * * (sleep 4; /etc/zabbix/scripts/elasticsearch_multinstance.py http://es-node11.domain.ru:9201 domain.ru zbx-mon.domain.ru)
+* * * * * (sleep 4; /etc/zabbix/scripts/elasticsearch_multinstance.py http://es-node11.domain.ru:9202 domain.ru zbx-mon.domain.ru)
+* * * * * (sleep 4; /etc/zabbix/scripts/elasticsearch_multinstance.py http://es-node11.domain.ru:9203 domain.ru zbx-mon.domain.ru)
